@@ -1,3 +1,4 @@
+'''
 # 4.13.3: Greeting
 # Corey Herubin
 # 2.6.19
@@ -9,3 +10,17 @@ def greeting():
     print("Nice to meet you!")
 
 greeting()
+'''
+
+# 4.13.4: Functions and Variables
+# Corey Herubin
+# 2.14.19
+
+x = 406
+
+def print_something():
+    x = 13
+    print(x)
+
+print_something()
+print(x)
