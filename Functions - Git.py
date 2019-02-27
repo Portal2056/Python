@@ -44,3 +44,14 @@ def print_number(x):
 
 print_number(12)
 print_number('\n' + 'Hello World')
+
+# 4.14.4: Name & Age
+# Corey Herubin
+# 2.18.19
+
+def name_and_age(name, age):
+    print('\n', 'Hi, my name is', name, 'and I am', str(age), 'years old.')
+
+name_and_age('Corey Herubin', 16)
+name_and_age('Dr. Seuss', 22)
+name_and_age('Mike', 56)
