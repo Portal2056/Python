@@ -55,3 +55,14 @@ def name_and_age(name, age):
 name_and_age('Corey Herubin', 16)
 name_and_age('Dr. Seuss', 22)
 name_and_age('Mike', 56)
+
+# 4.14.5: Default Parameter Values
+# Corey Herubin
+# 2.19.19 (Happy Birthday!)
+
+def print_two_numbers(x, y = 20):
+    print('First number:', x)
+    print('Second number:', y)
+
+print_two_numbers(5, 67)
+print_two_numbers(23)
