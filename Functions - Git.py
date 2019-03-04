@@ -94,3 +94,19 @@ try:
 
 except ValueError:
     print('That was not an integer')
+
+# 4.16.4: Enter Name & Age
+# Corey Herubin
+# 2.20.19
+
+name = input('What is your name: ')
+
+age = -1
+
+try:
+    age = int(input('Enter your age: '))
+except ValueError:
+    print('That was not a valid age')
+
+print('\n''Name:', name)
+print('Age:', age)
