@@ -82,3 +82,14 @@ def print_multiple_times(string, times):
         print('\n', string)
 
 print_multiple_times('Hello Computer Scientist', 4)
+
+# 4.16.3: Enter a number
+# Corey Herubin
+# 2.20.19
+
+try:
+    my_number = int(input('Enter an integer: '))
+    print('Your number: ' + str(my_number))
+
+except ValueError:
+    print('That was not an integer')
