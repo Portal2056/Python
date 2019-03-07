@@ -95,7 +95,6 @@ try:
 except ValueError:
     print('That was not an integer')
 
-<<<<<<< HEAD
 # 4.16.4: Enter Name & Age
 # Corey Herubin
 # 2.20.19
@@ -111,7 +110,7 @@ except ValueError:
 
 print('\n''Name:', name)
 print('Age:', age)
-=======
+
 # 4.16.6: Temperature Converter
 # Corey Herubin
 # 2.20.19
@@ -131,4 +130,20 @@ try:
 
 except ValueError:
     print('You must enter a float')
->>>>>>> Temperature-Converter
+
+# 4.16.7: Enter a positive number
+# Corey Herubin
+# 2.21.19
+
+def retrieve_positive_number():
+    while True:
+        try:
+            number = int(input("Enter a positive number: "))
+            if number > 0:
+                return number
+            else:
+                print("The number was not positive!")
+        except ValueError:
+            print("That was not a number, silly goose.")
+
+retrieve_positive_number()
